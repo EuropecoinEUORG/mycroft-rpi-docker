@@ -1,4 +1,4 @@
-FROM resin/rpi-raspbian:jessie
+FROM armhf/ubuntu
 RUN apt-get update
 RUN apt-get upgrade -y
 RUN apt-get install -y gnupg2 apt-transport-https build-essential alsa-utils sox
